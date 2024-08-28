@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>தொடர்பு படிவம்</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contact-container">
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="contact-left"
+      >
+        <div class="border">
+          <div class="contact-left-title">
+            <h2>எங்களை தொடர்பு கொள்ள</h2>
+
+            <hr />
+          </div>
+          <input
+            type="hidden"
+            name="access_key"
+            value="c5caf16b-92db-46d6-8494-883472792d14"
+          />
+          <input
+            type="text"
+            name="name"
+            placeholder="உங்கள் பெயர்"
+            class="contact-inputs"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="உங்கள் மின்னஞ்சல்"
+            class="contact-inputs"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="உங்கள் செய்தி"
+            class="contact-inputs"
+            required
+          ></textarea>
+          <div class="btn">
+            <button type="submit">சமர்ப்பிக்கவும்</button>
+          </div>
+        </div>
+      </form>
+      <div class="contact-right"></div>
+      <img src="/asset/img1.png" alt="" />
+    </div>
+  </body>
+</html>

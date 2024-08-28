@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contact-container">
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="contact-left"
+      >
+        <div class="border">
+          <div class="contact-left-title">
+            <h2>අපව අමතන්න</h2>
+
+            <hr />
+          </div>
+          <input
+            type="hidden"
+            name="access_key"
+            value="c5caf16b-92db-46d6-8494-883472792d14"
+          />
+          <input
+            type="text"
+            name="name"
+            placeholder="ඔයාගේ නම"
+            class="contact-inputs"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="ඔබගේ Email"
+            class="contact-inputs"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="ඔයාගේ පණිවිඩය"
+            class="contact-inputs"
+            required
+          ></textarea>
+          <div class="btn">
+            <button type="submit">ඉදිරිපත් කරන්න</button>
+          </div>
+        </div>
+      </form>
+      <div class="contact-right"></div>
+      <img src="/asset/img1.png" alt="" />
+    </div>
+  </body>
+</html>
